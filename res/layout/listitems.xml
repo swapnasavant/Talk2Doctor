@@ -1,0 +1,44 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="0dip" android:layout_weight="1" android:layout_height="fill_parent">
+        <TextView
+            android:background="@layout/circular_textview"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtUserFrom"></TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id= "@+id/txtFrom"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/txtComment"></TextView>
+            </LinearLayout>
+        <Button
+            android:id="@+id/reply"
+            android:textColor="#AAAAAA"
+            android:textSize="13sp"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/button_shape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textStyle="bold"
+            android:text="-->" />
+    </LinearLayout>
+</LinearLayout>
